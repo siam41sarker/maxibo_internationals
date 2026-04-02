@@ -1,5 +1,5 @@
 import { User, Phone, Mail } from "lucide-react";
-import profileImage from "../../assets/unnamed.jpg";
+import profileImage from "../../assets/aboutMe.jpg";
 
 const Leadership = () => {
   return (
