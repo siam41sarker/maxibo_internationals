@@ -17,7 +17,7 @@ const OurApproach = () => {
   }, []);
 
   return (
-    <section className="bg-[#f1f4f5] py-24">
+    <section className="bg-[#F9FAFB] py-24">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Title */}
