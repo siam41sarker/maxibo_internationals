@@ -2,7 +2,7 @@ const VisitOffice = () => {
   const mapLink = "https://maps.app.goo.gl/TmDiEHWRQQJd1x3d9";
 
   return (
-    <section className="bg-[#f5f6f7] py-20 px-6">
+    <section className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Title */}
