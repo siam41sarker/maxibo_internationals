@@ -2,18 +2,23 @@
   "slides": [
     {
       "id": 1,
-      "src": "https://i.ibb.co.com/W4TCRMXN/banner.jpg",
+      "src": "https://i.ibb.co.com/Zzz0cNNt/header2.jpg",
       "alt": "Slide 1"
     },
     {
       "id": 2,
-      "src": "https://i.ibb.co.com/S79tmVVQ/banner2.jpg",
+      "src": "https://i.ibb.co.com/4wBwKByp/We-Chat-20240603130803-mp4.webp",
       "alt": "Slide 2"
     },
     {
       "id": 3,
-      "src": "https://i.ibb.co.com/Zzz0cNNt/header2.jpg",
+      "src": "https://i.ibb.co.com/Y7CxgF9K/masa-conveyor.jpg",
       "alt": "Slide 3"
+    },
+    {
+      "id": 4,
+      "src": "https://www.tmcutter.com/uploads/39579/small/ultrahigh-precision-fully-automaticacc64.jpg",
+      "alt": "Slide 4"
     }
   ]
 }

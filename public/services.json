@@ -3,12 +3,12 @@
   "statistics": [
     {
       "icon": "CheckCircle",
-      "value": "500+",
+      "value": "2000+",
       "title": "Installations Completed"
     },
     {
       "icon": "Users",
-      "value": "1,000+",
+      "value": "500+",
       "title": "Professionals Trained"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "icon": "Smile",
-      "value": "98+",
+      "value": "200+",
       "title": "Client Satisfaction"
     }
   ],
@@ -122,20 +122,20 @@
       }
     ],
     "equipmentTypes": [
-      "Automatic Cutting Systems",
+      "Apparel CAD System",
+      "Plotter & Pattern Cutter Machine",
       "Fabric Spreading Machines",
-      "Fusing Presses",
-      "CAD Plotters & Digitizers",
-      "Sewing Machine Lines",
-      "Inspection Equipment",
-      "Printing & Dyeing Machines",
-      "Automation Systems"
+      "Fusing Machine",
+      "Inspection Machine",
+      "Automatic Cutting Solutions",
+      "Sewing Machine",
+      "Printing Machines"
     ],
     "certifications": [
       "Gemini CAD Certified",
-      "Sinajet Authorized",
+      "TKT, Sinajet & Jindex Authorized",
       "Konsan Tech Trained",
-      "GBOS Certified"
+      "Huatang Sewing Certified"
     ]
   },
   "training": {
@@ -166,7 +166,7 @@
       },
       {
         "title": "CAD/CAM Software Training",
-        "duration": "3-5 Days",
+        "duration": "10-12 Days",
         "description": "Complete software training for pattern making, grading, marker making, and production planning.",
         "topics": [
           "Pattern digitizing and creation",
@@ -208,7 +208,7 @@
       {
         "icon": "Award",
         "title": "Certification",
-        "description": "Official certificates issued upon successful completion of training."
+        "description": "Official certificates issued upon successful completion of training ( If required )."
       }
     ],
     "options": [
@@ -387,10 +387,10 @@
     "industries": [
       "Apparel Manufacturing",
       "Textile Production",
-      "Footwear Industry",
-      "Leather Goods",
-      "Home Furnishing",
-      "Technical Textiles"
+      "Knitwear & Woven Garment Factories",
+      "Garment Export & Buying Houses",
+      "Uniform & Industrial Clothing Manufacturing",
+      "Textile Printing & Finishing"
     ],
     "benefits": [
       {

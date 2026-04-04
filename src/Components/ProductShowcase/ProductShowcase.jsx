@@ -2,6 +2,13 @@ import { useEffect, useState } from "react";
 import { CheckCircle } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 const ProductShowcase = () => {
   const [data, setData] = useState(null);
 
@@ -38,13 +45,36 @@ const ProductShowcase = () => {
               key={product.id}
               className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center"
             >
-              {/* IMAGE */}
+              
+              {/* IMAGE / SLIDER */}
               <div className={`${isReverse ? "md:order-2" : "md:order-1"}`}>
-                <img
-                  src={getHeroImage(product.id)}
-                  alt={product.name}
-                  className="w-full h-[220px] sm:h-[280px] md:h-[340px] object-cover rounded-2xl shadow-md"
-                />
+                
+                {/* Show slider if sliderImages exist */}
+                {product.sliderImages ? (
+                  <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    navigation
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 2500 }}
+                    className="rounded-2xl overflow-hidden shadow-md"
+                  >
+                    {product.sliderImages.map((img, i) => (
+                      <SwiperSlide key={i}>
+                        <img
+                          src={img}
+                          alt={product.name}
+                          className="w-full h-[220px] sm:h-[280px] md:h-[340px] object-cover"
+                        />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                ) : (
+                  <img
+                    src={getHeroImage(product.id)}
+                    alt={product.name}
+                    className="w-full h-[220px] sm:h-[280px] md:h-[340px] object-cover rounded-2xl shadow-md"
+                  />
+                )}
               </div>
 
               {/* CONTENT */}
@@ -94,6 +124,7 @@ const ProductShowcase = () => {
             </div>
           );
         })}
+
       </div>
     </div>
   );

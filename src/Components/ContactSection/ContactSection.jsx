@@ -51,8 +51,8 @@ const ContactSection = () => {
 
     emailjs
       .send(
-        "service_mueckcc",
-        "template_tbcwfcw",
+        "service_gl8kw9g",
+        "template_v0hz808",
         {
           name: formData.name,
           email: formData.email,
@@ -61,7 +61,7 @@ const ContactSection = () => {
           subject: formData.subject,
           message: formData.message,
         },
-        "TGDmFFmHXrcss9HFb"
+        "2j3s1xEmYHsLwyIUX"
       )
       .then(() => {
         toast.success("Message sent successfully!");

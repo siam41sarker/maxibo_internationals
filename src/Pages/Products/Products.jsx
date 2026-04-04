@@ -1,4 +1,3 @@
-import AdditionalSolutions from "../../Components/AdditionalSolutions/AdditionalSolutions"
 import Banner from "../../Components/Banner/Banner"
 import ProductShowcase from "../../Components/ProductShowcase/ProductShowcase"
 import WhyChooseProducts from "../../Components/WhyChooseProducts/WhyChooseProducts"
@@ -18,7 +17,6 @@ const Products = () => {
             size="small"
         />
         <ProductShowcase></ProductShowcase>
-        <AdditionalSolutions></AdditionalSolutions>
         <WhyChooseProducts></WhyChooseProducts>
         </div>
     )

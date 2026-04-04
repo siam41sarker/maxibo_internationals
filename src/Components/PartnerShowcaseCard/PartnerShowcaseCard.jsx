@@ -28,7 +28,7 @@ const PartnerShowcaseCard = () => {
               
               {/* Logo Container Link */}
               <a
-                href="#"
+                href={partner.website}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-24 h-24 mb-5"

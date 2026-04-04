@@ -1,66 +1,119 @@
 {
   "heroProducts": [
     {
-      "id": "spreading",
-      "name": "Spreading Machines",
-      "description": "Automated fabric spreading for precision and efficiency",
-      "image": "https://i.ibb.co.com/6cq3tJY1/imgi-18-imgi-2-spreading-machine-c52k93-DM.jpg"
-    },
-    {
-      "id": "cutting",
-      "name": "Cutting Systems",
-      "description": "High-precision laser and oscillating knife cutting",
-      "image": "https://i.ibb.co.com/fzd2Sv9h/imgi-4-imgi-3-cutting-machine-BXYa2e-J.jpg"
-    },
-    {
-      "id": "fusing",
-      "name": "Fusing Presses",
-      "description": "Industrial heat press solutions for garment manufacturing",
-      "image": "https://i.ibb.co.com/tMpG3d3L/imgi-20-imgi-4-fusing-press-B9a-Ry-Uh5.jpg"
+      "id": "cad",
+      "name": "Apparel CAD Software",
+      "description": "Wide format printing for patterns and markers",
+      "image": "https://i.ibb.co/Zzz0cNNt/header2.jpg"
     },
     {
       "id": "plotter",
-      "name": "CAD Plotters",
-      "description": "Wide format printing for patterns and markers",
-      "image": "https://i.ibb.co.com/bgNF0Pbt/imgi-12-imgi-5-plotter-Bb3mb1-A8.jpg"
+      "name": "Plotter Machine",
+      "description": "High-precision pattern and marker printing for garment production",
+      "image": "https://i.ibb.co/DBfnb44/images-2.jpg"
+    },
+    {
+      "id": "spreading",
+      "name": "Spreading Machine",
+      "description": "Automated fabric spreading for precision and efficiency",
+      "image": "https://i.ibb.co/DDLZ02Tf/SERIM-KATEGORI-ARKAPLAN-2024-1-1.jpg"
+    },
+    {
+      "id": "cutting",
+      "name": "Fabric Cutting Machine",
+      "description": "Precision fabric cutting for efficient garment production.",
+      "image": "https://i.ibb.co/ymj1XXXB/202601150505356f56c.webp"
+    },
+    {
+      "id": "fusing",
+      "name": "Fusing Machine",
+      "description": "Industrial heat press solutions for garment manufacturing",
+      "image": "https://i.ibb.co.com/rfZDKt4Z/pres.jpg"
+    },
+    {
+      "id": "sewing",
+      "name": "Industrial Sewing Machine",
+      "description": "High-speed sewing machines for efficient garment production",
+      "image": "https://i.ibb.co/3mTtzggy/multineedle-machine-477.jpg"
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial Sewing Automation",
+      "description": "Automated sewing systems for faster and more efficient garment production.",
+      "image": "https://i.ibb.co/0zWgBND/images-5.jpg"
+    },
+    {
+      "id": "oval-printing",
+      "name": "Oval Screen Printing Machine",
+      "description": "High-speed garment screen printing systems",
+      "image": "https://www.s-mak.com/images/banner-img-2.jpg"
     }
   ],
   "productCategories": [
     {
-      "id": "cutting",
-      "name": "Cutting Systems",
-      "description": "Advanced digital cutting solutions for precision fabric and material cutting",
-      "image": "cutting-machine.jpg",
-      "features": [
-        "Laser cutting technology",
-        "Oscillating knife systems",
-        "Multi-layer cutting capability",
-        "CAD/CAM integration",
-        "Automatic material handling",
-        "High-speed production"
+      "id": "cad",
+      "name": "CAD & Cutting Room Automation",
+      "description": "Software and hardware solutions for pattern design and plotting",
+      "sliderImages": [
+        "https://i.ibb.co/Zzz0cNNt/header2.jpg",
+        "https://i.ibb.co/DBfnb44/images-2.jpg",
+        "https://i.ibb.co.com/JwVLyLqL/imgi-24-154440467192.jpg",
+        "https://i.ibb.co/DDLZ02Tf/SERIM-KATEGORI-ARKAPLAN-2024-1-1.jpg",
+        "https://i.ibb.co/ymj1XXXB/202601150505356f56c.webp"
       ],
-      "partners": ["GBOS", "Sinajet", "Jindex"]
+      "features": [
+        "Pattern designing software",
+        "Marker making systems",
+        "Wide format plotters",
+        "Inkjet cutting technology",
+        "Spreading System",
+        "Intelligent Cutting System"
+      ],
+      "partners": [
+        "Gemini CAD System",
+        "TKT Brain Power",
+        "Sinaje",
+        "Jindex",
+        "Konsan Tech",
+        "Timing"
+      ]
     },
     {
-      "id": "spreading",
-      "name": "Spreading Machines",
-      "description": "Automated fabric spreading systems for efficient material handling",
-      "image": "spreading-machine.jpg",
+      "id": "sewing",
+      "name": "Apparel Sewing Machines",
+      "description": "High-performance industrial sewing machines designed for efficient garment manufacturing and consistent stitch quality.",
       "features": [
-        "Automatic tension control",
-        "Edge alignment system",
-        "Multiple fabric types support",
-        "Speed optimization",
-        "Quality inspection integration",
-        "Roll unwinding capability"
+        "High-speed lockstitch machines",
+        "Overlock and interlock systems",
+        "Multi-needle sewing capability",
+        "Automatic thread trimming",
+        "Energy-efficient servo motors",
+        "Precision stitching for apparel production"
       ],
-      "partners": ["Konsan Tech"]
+      "partners": [
+        "Huatang"
+      ]
+    },
+    {
+      "id": "oval-printing",
+      "name": "Oval Screen Printing Machines",
+      "description": "Advanced oval screen printing systems for high-speed garment printing and consistent design quality.",
+      "features": [
+        "High-speed multi-color printing",
+        "Large oval printing table",
+        "Precision registration system",
+        "Automatic screen lifting",
+        "Energy-efficient drying compatibility",
+        "Suitable for bulk garment production"
+      ],
+      "partners": [
+        "S-MAK"
+      ]
     },
     {
       "id": "fusing",
       "name": "Fusing Machines",
       "description": "Industrial fusing and pressing equipment for garment manufacturing",
-      "image": "fusing-press.jpg",
       "features": [
         "Mega fusing press systems",
         "Temperature precision control",
@@ -69,44 +122,44 @@
         "Digital control panels",
         "Continuous operation mode"
       ],
-      "partners": ["Konsan Tech"]
-    },
-    {
-      "id": "cad",
-      "name": "CAD/CAM & Plotters",
-      "description": "Software and hardware solutions for pattern design and plotting",
-      "image": "plotter.jpg",
-      "features": [
-        "Pattern digitizing software",
-        "Marker making systems",
-        "Wide format plotters",
-        "Inkjet cutting technology",
-        "Network connectivity",
-        "Multi-machine management"
-      ],
-      "partners": ["Gemini CAD", "TKT Brain Power", "Jindex"]
+      "partners": [
+        "Konsan Tech"
+      ]
     }
   ],
   "additionalProducts": [
     {
       "category": "Sewing Machines",
       "description": "Multi-needle chain stitch and overlock machines",
-      "partners": ["Huatang", "Gemini"]
+      "partners": [
+        "Huatang",
+        "Gemini"
+      ]
     },
     {
       "category": "Printing & Dyeing",
       "description": "Oval screen printers and fabric dyeing machines",
-      "partners": ["Dopsing", "Gemini"]
+      "partners": [
+        "Dopsing",
+        "Gemini"
+      ]
     },
     {
       "category": "Fabric Inspection",
       "description": "Plaiting and roll fabric inspection systems",
-      "partners": ["Konsan Tech", "Gemini"]
+      "partners": [
+        "Konsan Tech",
+        "Gemini"
+      ]
     },
     {
       "category": "Automation Solutions",
       "description": "Industry 4.0 ready manufacturing systems",
-      "partners": ["Sinajet", "GBOS", "Gemini"]
+      "partners": [
+        "Sinajet",
+        "GBOS",
+        "Gemini"
+      ]
     }
   ],
   "productAdvantages": [

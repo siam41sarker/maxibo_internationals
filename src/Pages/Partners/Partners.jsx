@@ -8,7 +8,7 @@ const Partners = () => {
                 mode="gradient"
                 title={
                     <>
-                        Our Global<span className="text-orange-500">Partners</span>
+                        Our Global <span className="text-orange-500">Partners</span>
                     </>
                 }
                 subtitle={null}

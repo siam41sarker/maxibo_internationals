@@ -18,10 +18,11 @@ const Leadership = () => {
         </div>
 
         {/* Card */}
-        <div className="w-full lg:w-11/12 2xl:w-1/2 mt-10 bg-[#385E95] border border-gray-400 rounded-2xl p-8 flex flex-col md:flex-row items-center  gap-8 mx-auto">
+        <div className="w-full lg:w-11/12 2xl:w-1/2 mt-10 bg-[#385E95] border border-gray-400 rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 mx-auto">
 
           {/* Text Content */}
           <div className="flex flex-col gap-6 flex-1">
+
             {/* Icon */}
             <div className="w-16 h-16 rounded-full bg-[#4b6fa5] flex items-center justify-center">
               <User className="text-orange-500 w-8 h-8" />
@@ -37,16 +38,24 @@ const Leadership = () => {
               CEO
             </span>
 
-            {/* Contact */}
-            <div className="flex items-center gap-2 text-gray-200 text-base font-inter">
+            {/* Phone */}
+            <a
+              href="tel:+8801680329598"
+              className="flex items-center gap-2 text-gray-200 text-base font-inter hover:text-orange-400 transition-colors"
+            >
               <Phone size={24} className="text-orange-500" />
               +8801680 329598
-            </div>
+            </a>
 
-            <div className="flex items-center gap-2 text-gray-200 text-base font-inter">
+            {/* Email */}
+            <a
+              href="mailto:maxibobd@gmail.com"
+              className="flex items-center gap-2 text-gray-200 text-base font-inter hover:text-orange-400 transition-colors"
+            >
               <Mail size={24} className="text-orange-500" />
               maxibobd@gmail.com
-            </div>
+            </a>
+
           </div>
 
           {/* Image */}

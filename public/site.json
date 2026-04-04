@@ -69,9 +69,9 @@
   },
   "stats": {
     "home": [
-      { "value": "18,000+", "label": "Installations Worldwide" },
-      { "value": "60+", "label": "Countries Served" },
-      { "value": "140+", "label": "Patents & Copyrights" },
+      { "value": "2000+", "label": "Installations" },
+      { "value": "200+", "label": "Customers Served" },
+      { "value": "500+", "label": "Products Delivered" },
       { "value": "20+", "label": "Years Experience" }
     ],
     "services": [
