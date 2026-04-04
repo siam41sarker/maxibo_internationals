@@ -222,7 +222,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-500 break-words">maxibobd@gmail.com</p>
+                  <p className="text-gray-400 break-words">maxibobd@gmail.com</p>
                 </div>
               </div>
 
