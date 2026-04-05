@@ -10,7 +10,7 @@ const About = () => {
       <Banner
         mode="image"
         size="small"
-        image="https://i.ibb.co.com/S79tmVVQ/banner2.jpg"
+        image="https://i.ibb.co.com/Zzz0cNNt/header2.jpg"
         subtitle={null}
         buttons={false}
         title={
