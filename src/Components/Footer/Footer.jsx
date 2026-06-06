@@ -24,13 +24,13 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-4 mt-6">
             <a
-              href="#"
+              href="https://www.facebook.com/istiak.ahmmedronny" target="_blank"
               className="bg-[#1B3D7A] p-3 rounded-full hover:bg-[#2B9EC0] transition cursor-pointer"
             >
               <FaFacebookF size={16} />
             </a>
             <a
-              href="#"
+              href="https://wa.me/8801680329598" target="_blank"
               className="bg-[#1B3D7A] p-3 rounded-full hover:bg-[#2B9EC0] transition cursor-pointer"
             >
               <FaWhatsapp size={16} />
