@@ -71,6 +71,20 @@
       ]
     },
     {
+      "id": "smak",
+      "name": "S-MAK",
+      "country": "Portugal–India Joint Venture",
+      "logo": "https://www.s-mak.com/images/logo.png",
+      "website": "https://www.s-mak.com/",
+      "description": "S-MAK manufactures advanced oval automatic screen printing machines used for high-speed garment and textile printing.",
+      "highlights": [
+        "Oval automatic screen printing machines",
+        "High-speed garment printing systems",
+        "Precision textile printing technology",
+        "Widely used in large apparel factories"
+      ]
+    },
+    {
       "id": "tmcutter",
       "name": "Timing Cutter",
       "country": "China",
@@ -96,20 +110,6 @@
         "Multi-needle chain stitch machines",
         "ISO9001 certified production",
         "Reliable after-sales service"
-      ]
-    },
-    {
-      "id": "smak",
-      "name": "S-MAK",
-      "country": "Portugal–India Joint Venture",
-      "logo": "https://www.s-mak.com/images/logo.png",
-      "website": "https://www.s-mak.com/",
-      "description": "S-MAK manufactures advanced oval automatic screen printing machines used for high-speed garment and textile printing.",
-      "highlights": [
-        "Oval automatic screen printing machines",
-        "High-speed garment printing systems",
-        "Precision textile printing technology",
-        "Widely used in large apparel factories"
       ]
     }
   ]
