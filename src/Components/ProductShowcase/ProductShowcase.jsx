@@ -24,6 +24,9 @@ const ProductShowcase = () => {
 
   const sectionColors = ["bg-white", "bg-gray-50"];
 
+  // -----------------------------
+  // HERO IMAGE MAPPER
+  // -----------------------------
   const getHeroImage = (id) => {
     const idMap = {
       cad: "plotter",
@@ -35,9 +38,25 @@ const ProductShowcase = () => {
     return found?.image;
   };
 
+  // -----------------------------
+  // PRIORITY ORDER SYSTEM
+  // -----------------------------
+  const categoryPriority = {
+    cad: 1,
+    fusing: 2,
+    sewing: 999, // always last
+  };
+
+  const sortedCategories = [...productCategories].sort((a, b) => {
+    const aPriority = categoryPriority[a.id] ?? 100;
+    const bPriority = categoryPriority[b.id] ?? 100;
+
+    return aPriority - bPriority;
+  });
+
   return (
     <div>
-      {productCategories.map((product, index) => {
+      {sortedCategories.map((product, index) => {
         const isReverse = index % 2 !== 0;
 
         return (
